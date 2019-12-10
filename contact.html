@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SocaSosa Contact</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="shortcut icon" type="image/png" href="images/SocaSosaTop.png">
+</head>
+<body>
+    <h1 class="hidden">SocaSosa</h1>
+    <div class="container"><!--start container-->
+        <header class="mainHeader"><!--start mainHeader-->
+            <div class="logoHeader">
+                <img src="images/SocaSosaLogo.svg" alt="SocaSosa Logo"  id="logo">
+            </div>
+            <nav id="mainNav"><!--start mainNav-->
+                <h2 class="hidden">Main Navigation</h2>
+                <a href="index.html">HOME</a>
+                <a href="artists.html">ARTISTS</a>
+                <a class="selected" href="#">CONTACT</a>             
+            </nav><!--end mainNav-->
+        </header><!--end mainHeader-->
+
+        <main>
+        <section id="mainContact"> <!--start mainGallery-->
+                    <h2>Contact Me</h2>
+            <section id="contactArea"><!--start contactArea-->
+                <h2 class="hidden">Contact form</h2> 
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name: (required)</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email: (will not be published)</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                    <label for="phone">Phone: (required)</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                    
+                    <label for="human">What is the First Colour of the Rainbow</label>
+                    <input type="text" required id="human" size="30" placeholder="">
+                   
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+            </section><!--end contactArea-->  
+            
+            <section id="mapArea"><!--start mapArea-->
+                <h2 class="hidden">Map</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.276878425836!2d-79.38816028458942!3d43.642407461146746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d5d5b6045b%3A0x8daf1a19298c213d!2sRipley&#39;s%20Aquarium%20of%20Canada!5e0!3m2!1sen!2sca!4v1575941318688!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </section><!--end mapArea-->      
+        </section><!--end mainContact-->
+    </main>
+   <footer  class="mainHeader"><!--start mainHeader-->
+            <div class="logoHeader">
+                <img src="images/SocaSosaLogo.svg" alt="SocaSosa Logo"  id="logo">
+            </div>
+            <nav id="mainNav"><!--start mainNav-->
+                <h2 class="hidden">Footer Nav</h2>
+                <a href="index.html">HOME</a>
+                <a href="artists.html">ARTISTS</a>
+                <a class="selected" href="contact.html">CONTACT</a>             
+            </nav><!--end mainNav-->
+        </footer><!--end mainHeader-->
+        </nav>
+      </div>
+    </div><!--end siteContainer-->
+    </footer>
+</body>
+</html>

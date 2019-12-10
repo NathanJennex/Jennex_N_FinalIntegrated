@@ -1,0 +1,314 @@
+
+
+.box {
+  background-color: #8ea86e;
+  color: #fff;
+  text-align: center;
+  margin: 20px;
+}
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4 { 
+margin: 0; 
+padding: 0; 
+} 
+
+img { 
+border: none; 
+margin: 0; 
+padding: 0; 
+}
+
+/*html selectors*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  background-color: #ededed;
+}
+
+/*-- I took 2 L's on purpose --*/
+
+.textallign h2 {
+  text-align: center;
+  color: #ed3e3e;
+  margin bottom: 500px;
+}
+
+.hidden {
+  display: none;
+}
+
+.container
+{
+  width: 980px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.logoHeader
+{
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+}
+
+#mainNav
+{
+  margin-top: 45px;
+  margin-left: 545px;
+}
+
+#mainNav ul
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+#mainNav ul li {  
+  font-size: 14px;
+  display: inline;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.mainNav ul li a
+{
+  color: #2073a8;
+  padding: 5px;
+}
+
+.mainNav ul li a:hover {
+  padding: 5px;
+  background-color: #ddeff7;
+}
+
+.selected
+{
+  padding: 5px 0px 5px 0px;
+  background-color: #ddeff7;
+}
+
+
+.travis p
+{
+  line-height: 22px;
+  color: #fff;;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ed3e3e;
+}
+
+
+ .tunes p {
+  line-height: 22px;
+  color: #fff;;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ed3e3e;
+ }
+
+.Button
+{
+  display: block;
+  width: 100px;
+  padding: 15px;
+  color: #FFF;
+  background-color: #ed3e3e;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Button:hover
+{
+  background-color: #3f6e84;
+}
+
+#Gallery
+{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PhotoBox {
+  width: 150px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+.PhotoBox2{
+ width: 150px;
+ height: 150px;
+ margin-right: 300px;
+}
+
+.PhotoBox2 h3 {
+  border-top: dashed 1px #666;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  color: #ed3e3e;
+  font-size: 18px;
+}
+
+.PhotoBox2 p {
+  font-size: 10px;
+  margin-top: 0; 
+  padding-bottom: 18px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  text-align: auto;
+}
+
+.PhotoBox h3 {
+  border-top: dashed 1px #666;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  color: #ed3e3e;
+  font-size: 18px;
+}
+
+.PhotoBox p {
+  font-size: 10px;
+  margin-top: 0;
+  border-bottom: 1px solid #666;
+  padding-bottom: 18px;
+  padding-top: 20px;
+  text-align: auto;
+}
+
+  #mainContact {
+  width: 940px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+#mainContact h2 {
+  font-size: 30px;
+  color: #fff;
+  background-color: #ed3e3e;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+  width: 940px;
+   text-align: center
+}
+
+#contactArea {
+  width: 469px;
+  border-right: solid 1px #ed3e3e;
+  margin-bottom: 30px;
+}
+
+
+#contactText {
+  font-size: 24px;
+  margin-bottom: 25px;
+  width: 360px;
+}
+
+#contactForm {
+  margin-top: 25px;
+}
+
+input, textarea  {
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  background-color: #efefef;
+  display: block;
+  border: 1px solid #999;
+  color: #333;
+}
+
+#comments {
+  width: 360px;
+  height: 200px;
+}
+
+#submit {
+  display: block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  margin-top: 30px;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #ed3e3e;
+  font-size: 14px;
+  border: 1px solid #fff;
+}
+
+#mapArea {
+  width: 380px;
+  margin-left: 90px;
+}
+
+
+#mapArea h3 {
+  font-size: 21px;
+  margin-top: 0;
+  color: #2073a8;
+}
+
+#mapArea ul {
+  list-style-type: none;
+  padding: 0;
+} 
+
+}
+
+.logoNav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.logoFooter {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+}
+
+.footerNav{
+  margin-left: 545px;
+}
+
+.footerNav ul li a {
+  color: #333;
+}
+
+.footerNav ul li a:hover {
+  color: #999;
+}
+
